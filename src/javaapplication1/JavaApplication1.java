@@ -19,5 +19,16 @@ public class JavaApplication1 {
         int a = 1;
         
         a++;
+        
+        System.out.print(a);
+        
+        a--;
+        
+        System.out.print(a);
+        
+        for(int i = 0; i < 10; i++)
+        {
+            System.out.print(i%2 + "\n");
+        }
     }
 }
